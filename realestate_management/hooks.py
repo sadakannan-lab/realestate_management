@@ -66,6 +66,10 @@ app_license = "mit"
 
 # Generators
 # ----------
+fixtures = ["User"]
+fixtures = [
+    {"dt": "User", "filters": [["email", "in", ["Aravind@gmail.com.com"]]]}
+]
 
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
